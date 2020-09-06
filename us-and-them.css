@@ -1,0 +1,71 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: #141414;
+    color:white;
+}
+h2{
+    font-size: 15px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+h1{
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.info{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.poster{
+    display: flex;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.us{
+    height:380px;
+}
+.actor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    justify-content: center;
+    height: 288px;
+    margin-top: 48px;
+}
+.actor-pic{
+    height: 115px;
+}
+.movie-detail{
+    margin-top:50px;
+}
+.slogan{
+    height:500px;
+    margin-left:20%;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+}
+.xemphim{
+    background-color: green;
+    display: inline-block;
+    padding: 8px 12px;
+    margin-top:30px;
+    margin-left: 80px;
+    text-transform: uppercase;
+}
+.movie-detail>h2 {
+    font-size: 30px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.back{
+    background-color: red;
+    display: inline-block;
+    padding: 8px 12px;
+}
+.view{
+    margin-top: 50px;
+    text-align: center;
+}
+.view p{
+    color:white;
+}

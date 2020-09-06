@@ -1,0 +1,121 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#1a1a1a;;
+    color:white;
+    margin-left: 0px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.banner{
+    display: flex;
+    background-color: gray;
+    height: 50px;
+    justify-content: space-between;
+}
+.logo{
+    height: 55px;
+    margin-left: 15px;
+}
+.logo img{
+    height: 50px;
+    margin-top: 4px;
+}
+.menu{
+    margin-top:5px;
+    margin-right: 230px;
+}
+.menu ul{
+    list-style-type: none;
+    display:flex;
+}
+.link-item{
+    margin-left: 15px;
+}
+main{
+    margin-top:50px;
+}
+.title{
+    text-align: center;
+}
+.list-movie{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.movie img {
+    height: 150px;
+    margin-left: 15px;
+    margin-top: 51px;
+}
+.movie{
+    height: 250px;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.movie:hover iframe{
+    display: block;
+    height: 200px;
+    width: 100%;
+    transform: scale(1.2);
+}
+/* .movie:hover {
+    transition: 1s;
+} */
+.movie:hover .item>a{
+    display: none;
+}
+.video-rv>a{
+    display: none;
+}
+.view{
+    margin-top: 50px;
+    text-align: center;
+}
+.view p{
+    color:white;
+}
+.name{
+    text-decoration: none;
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    bottom: -4px;
+}
+
+iframe {
+    display: none;
+    position: absolute;
+    top:0px;
+    transition-delay: 5s;
+}
+.search-input {
+    color: #fff;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    width: 200px;
+    transition: all 0.7s;
+}
+.search-box{
+    display: block;
+    border-radius: 30px;
+    height: 30px;
+    background-color: #363636;
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    justify-content: center;
+    align-items: center;
+}
+i:hover {
+    color:cornflowerblue;
+}
